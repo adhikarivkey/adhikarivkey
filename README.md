@@ -1,5 +1,17 @@
-- 👋 Hi, I’m @adhikarivkey
-- 👀 I’m interested in Python and Django
-- 👯 I’m looking to collaborate on live projects
-- 💞️ Ask me about data analysis, data visualisation, data cleaning, sql, data science, statistics, machine learning, and web development.
-- ⚡ Fun fact: 📚, 💰, 🍵
+class SoftwareEngineer:
+    name       = "Vivek Singh Adhikari"
+    pronouns   = "he/him"
+    age        = 30
+    role       = "Software Engineer | Backend & Cloud"
+    location   = ["New Delhi, in 🇮🇳", "Bangkok (visa provide), in 🇹🇭"]
+    languages  = ["hi_IN", "en_US"]
+
+    stack      = ["Python 🐍", "Django ⚡", "PostgreSQL 🐘", "Docker 🐳", "AWS ☁️"]
+    hobbies    = ["gaming 🎮", "using ai 🤖", "drinking 🍺"]
+
+    def vibes(self):
+        print("backend by day, gamer by night, slightly caffeinated always.")
+
+
+vic = SoftwareEngineer()
+vic.vibes()
